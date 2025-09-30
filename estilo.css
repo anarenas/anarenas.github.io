@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+   
+    --color1:#05AFF2;
+    --color2:#05C7F2;
+    --color3:#50ABBF;
+    --color4:#c2e2f3;
+    --color5:#F2F2F2;
+    --color6:#303650;
+    --color7:#1f63bb;
+    --color8:#6bbee8;
+}
+#content{
+    width:50%;
+    margin:25px auto;
+    box-shadow: 4px 5px 10px;
+    background: linear-gradient(to bottom right, var(--color4), var(--color8));    
+}
+#cabecera{
+    height: 90px;
+    padding: 5px;
+}
+
+#cabecera img{
+    height: 90%; 
+    padding: 10px;  
+}
+
+#personal{
+    height: 280px;
+    text-align: center ;   
+}
+#personal img{
+    height: 60%;
+    border-radius: 50%;
+    padding:6px;
+    background-color: #F2F2F2;
+    margin: 1.5%;
+}
+#personal h1{    
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: var(--color6);
+}
+
+#personal p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;   
+    color:var(--color6);
+    font-size: smaller;
+}
+
+#tareas{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: small;
+    height: 180px;  
+}
+#tareas p{
+    font-size: large;
+}
+
+#tareas ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    height: 70%;  
+}
+#tareas li{
+    list-style-type: none;
+    margin: 3px;   
+    height: 20%;   
+    background-color: var(--color7);
+    align-content: center;   
+    
+}
+#tareas a{
+    padding:20px;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    height: 10px;
+}
+
+#tareas a:hover{
+    background-color: rgb(255, 255, 255);
+    color:var(--color7);
+    font-weight: 600;
+}
+#tareas p{
+    text-transform: uppercase;
+    padding:5px;
+    margin:5px 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal; 
+    color: var(--color6);
+}
+
+#cursos{
+    height: 80px;
+    padding: 5px;
+}
+
+#cursos{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 150px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal; 
+    color: var(--color6);
+    
+}
+.curso{
+    margin:5px;
+}
+.curso img{
+    height: 80%;
+    
+}
